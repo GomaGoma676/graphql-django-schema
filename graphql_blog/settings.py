@@ -58,7 +58,7 @@ GRAPHQL_JWT = {
 }
 
 CORS_ORIGIN_WHITELIST = [
-    "http://localhost:3000"
+    "http://localhost:3000", "https://nextjs-apollo-drf.vercel.app"
 ]
 
 GRAPHENE = {'SCHEMA': 'graphql_blog.schema.schema',
