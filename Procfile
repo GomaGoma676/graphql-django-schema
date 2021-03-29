@@ -1,1 +1,1 @@
-web: gunicorn rest_api.wsgi --log-file -
+web: gunicorn graphql_blog.wsgi --log-file -
